@@ -26,7 +26,9 @@ NumberOfTime60_89DaysPastDueNotWorse = st.sidebar.number_input('Number of Times 
 NumberOfDependents = st.sidebar.number_input('Number of Dependents', min_value=0, max_value=10, value=1)
 
 # Create a button to trigger prediction
+
 predict_button = st.sidebar.button('Predict')
+
 
 # Display prediction result
 if predict_button:
